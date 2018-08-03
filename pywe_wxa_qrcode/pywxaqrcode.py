@@ -34,7 +34,7 @@ class WxaQRCode(BaseToken):
 
     def get_wxa_code_unlimit(self, sence, page=None, width=430, auto_color=False, line_color={'r': '0', 'g': '0', 'b': '0'}, is_hyaline=False, appid=None, secret=None, token=None, storage=None, res_to_base64=True, data_uri_scheme=True):
         data = self.post(
-            self.GET_WXA_CODE.format(access_token=final_access_token(self, appid=appid, secret=secret, token=token, storage=storage)),
+            self.GET_WXA_CODE_UNLIMIT.format(access_token=final_access_token(self, appid=appid, secret=secret, token=token, storage=storage)),
             data={
                 'sence': sence,
                 'page': page,
