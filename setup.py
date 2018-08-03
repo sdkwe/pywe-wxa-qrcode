@@ -7,18 +7,18 @@ version = '1.0.0'
 
 
 setup(
-    name='pywe-qrcode',
+    name='pywe-wxa-qrcode',
     version=version,
     keywords='Wechat Weixin QRCode',
     description='Wechat MiniProgram QRCode Module for Python.',
     long_description=open('README.rst').read(),
 
-    url='https://github.com/sdkwe/pywe-qrcode',
+    url='https://github.com/sdkwe/pywe-wxa-qrcode',
 
     author='Hackathon',
     author_email='kimi.huang@brightcells.com',
 
-    packages=['pywe_qrcode'],
+    packages=['pywe_wxa_qrcode'],
     py_modules=[],
     install_requires=['pywe_base>=1.0.8', 'pywe_token>=1.0.6'],
 
