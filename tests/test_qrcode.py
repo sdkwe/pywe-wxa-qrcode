@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import requests
+from pywe_wxa_qrcode import WxaQRCode, create_wxa_qrcode, get_wxa_code, get_wxa_code_unlimit
 
 from local_wecfg_example import WECHAT
-from pywe_wxa_qrcode import WxaQRCode, create_wxa_qrcode, get_wxa_code, get_wxa_code_unlimit
 
 
 class TestWxaQRCodeCommands(object):
